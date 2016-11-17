@@ -1029,6 +1029,11 @@ public class Matrix implements Cloneable, java.io.Serializable {
       return new Matrix(A);
    }
 
+   public void setMatrix(Matrix m) {
+	   this.A = m.A;
+	   this.m = m.m;
+	   this.n = m.n;
+   }
 
 /* ------------------------
    Private Methods
